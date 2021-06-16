@@ -96,16 +96,16 @@ async def help_command(_, message):
                         url=f"t.me/{BOT_USERNAME}?start=help",
                     ),
                     InlineKeyboardButton(
-                        text="Repo 🛠",
-                        url="https://github.com/thehamkercat/WilliamButcherBot",
+                        text="YOU TUBE 🥊",
+                        url="https://youtube.com/c/CEYLONGEEKSHOW",
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        text="System Stats 💻", callback_data="stats_callback"
+                        text="Telegram channel", url="https://t.me/tech_marster_channel"
                     ),
                     InlineKeyboardButton(
-                        text="Support 👨", url="t.me/WBBSupport"
+                        text="Support 👨", url="https://t.me/tech_marster"
                     ),
                 ],
             ]
@@ -119,15 +119,15 @@ async def help_command(_, message):
                     text="Commands ❓", callback_data="bot_commands"
                 ),
                 InlineKeyboardButton(
-                    text="Repo 🛠",
-                    url="https://github.com/thehamkercat/WilliamButcherBot",
+                    text="You tube",
+                    url="https://youtube.com/c/CEYLONGEEKSHOW",
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text="System Stats 🖥", callback_data="stats_callback"
+                    text="Telegram channel", url="https://t.me/tec_marster_chanenl"
                 ),
-                InlineKeyboardButton(text="Support 👨", url="t.me/WBBSupport"),
+                InlineKeyboardButton(text="Support 👨", url="https://t.me/tech_marster"),
             ],
             [
                 InlineKeyboardButton(
@@ -138,7 +138,7 @@ async def help_command(_, message):
         ]
     )
     await message.reply(
-        f"Hey there! My name is {BOT_NAME}. I can manage your group with lots of useful features, feel free to add me to your group.",
+        f"Hey there! My name is {BOT_NAME}. I can manage your group with lots of useful features, feel free to add me to your group. created by [sadew🎭 rukshan](https://t.me/kmsrk)",
         reply_markup=keyboard,
     )
 
