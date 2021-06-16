@@ -32,7 +32,7 @@
 ## Install Locally Or On A VPS
 
 ```sh
-$ git clone https://github.com/thehamkercat/WilliamButcherBot
+$ git clone https://github.com/sadew12/WilliamButcherBot
 
 $ cd WilliamButcherBot
 
@@ -52,7 +52,7 @@ $ python3 -m wbb
 ## Generating Pyrogram Session For Heroku
 
 ```
-$ git clone https://github.com/TheHamkerCat/WilliamButcherBot
+$ git clone https://github.com/sadew12/WilliamButcherBot
 
 $ cd WilliamButcherBot
 
@@ -61,7 +61,7 @@ $ pip3 install pyrogram TgCrypto
 $ python3 str_gen.py
 ```
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/thehamkercat/WilliamButcherBot/)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sadew12/WilliamButcherBot/)
 
 
 # Docker
